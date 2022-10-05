@@ -22,3 +22,8 @@ Since this is an open source project, we are actively looking for people to part
 We expect everyone to abide by our [Code of Conduct](  ). Please read and follow it. 
 
 Head on over to our [Contributing Guide](  ) to get started!  
+
+# Website Demo
+
+![1](https://user-images.githubusercontent.com/90105627/194060267-8ba420fc-5e77-447d-b102-ef5c9bb59ba8.png)
+
