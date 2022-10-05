@@ -12,16 +12,16 @@ You can play with compute to play Stone, Paper and Scissor and get results on th
  
  ## How To Use
  
- -  You can just visit the [website](  ) where we we have hosted our code to pick the background of your choosing easily! 
+ -  You can just visit the [website]( https://github.com/Jayt257/Stone_Paper_Scissor) where we we have hosted our code to pick the background of your choosing easily! 
  
 You can add your own Style CSS, javascript features to make the website more inticing and user friendly. 
 
 ## Contributing
 Since this is an open source project, we are actively looking for people to participate and help our project flourish! We ❤️ our contributors. We're committed to fostering an open, welcoming, and safe environment in the community.
 
-We expect everyone to abide by our [Code of Conduct](  ). Please read and follow it. 
+We expect everyone to abide by our [Code of Conduct](https://github.com/Jayt257/Stone_Paper_Scissor/blob/main/contributer.md). Please read and follow it. 
 
-Head on over to our [Contributing Guide](  ) to get started!  
+Head on over to our [Contributing Guide](https://github.com/Jayt257/Stone_Paper_Scissor/blob/main/contributer.md) to get started!  
 
 # Website Demo
 
