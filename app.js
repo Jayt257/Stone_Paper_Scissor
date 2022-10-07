@@ -2,10 +2,16 @@ const computerChoiceDisplay = document.getElementById("computer-choice")
 const userChoiceDisplay = document.getElementById("user-choice")
 const Result = document.getElementById("result")
 const possiblechoices = document.querySelectorAll("button")
+const userScoreDisplay = document.getElementById("user-score");
+const computerScoreDisplay = document.getElementById("computer-score");
 
 let userChoice
 let computerchoice
 let RESULT
+
+let computerScore = 0;
+let userScore = 0;
+
 possiblechoices.forEach(possiblechoice => possiblechoice.addEventListener("click", (e) => {
     userChoice = e.target.id
     userChoiceDisplay.innerHTML = userChoice
@@ -55,6 +61,13 @@ function getresult(){
         RESULT = "lose"
     }
 
+    if (RESULT === "lose") {
+        computerScore++;
+    } else if (RESULT === "win") {
+        userScore++;
+    }
+    userScoreDisplay.innerHTML = userScore;
+    computerScoreDisplay.innerHTML = computerScore;
 
     result.innerHTML = RESULT
 }

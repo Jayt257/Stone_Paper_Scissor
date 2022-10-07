@@ -36,3 +36,13 @@ button{
     width: auto;
     
   }
+
+.score {
+    color: white;
+    font-size: 2em;
+    font-weight: normal;
+    background-color: #47E3FF;
+    width: 30%;
+    margin: auto;
+    border: black 3px solid;
+}
