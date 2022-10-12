@@ -43,27 +43,27 @@ function getresult(){
         RESULT = "Draw"
     }
     if(computerchoice === "rock" && userChoice === "paper"){
-        RESULT = "win"
+        RESULT = "Win"
     }
     if(computerchoice === "rock" && userChoice === "scissor"){
-        RESULT = "lose"
+        RESULT = "Lose"
     }
     if(computerchoice === "paper" && userChoice === "rock"){
-        RESULT = "lose"
+        RESULT = "Lose"
     }
     if(computerchoice === "paper" && userChoice === "scissor"){
-        RESULT = "win"
+        RESULT = "Win"
     }
     if(computerchoice === "scissor" && userChoice === "rock"){
-        RESULT = "win"
+        RESULT = "Win"
     }
     if(computerchoice === "scissor" && userChoice === "paper"){
-        RESULT = "lose"
+        RESULT = "Lose"
     }
 
-    if (RESULT === "lose") {
+    if (RESULT === "Lose") {
         computerScore++;
-    } else if (RESULT === "win") {
+    } else if (RESULT === "Win") {
         userScore++;
     }
     userScoreDisplay.innerHTML = userScore;
