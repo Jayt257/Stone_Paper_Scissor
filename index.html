@@ -1,56 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>StonePaperScissor</title>
-    <link rel="stylesheet" type="text/css" href="background.css">
+    <link rel="stylesheet" type="text/css" href="background.css" />
 
-    <link rel="stylesheet" href="assets/css/styles.min.css">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-
-</head>
-<body>
-    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-dark navbar-custom" style="color: var(--bs-body-color);background: var(--bs-dark);">
-        <div class="container"><a class="navbar-brand" href="#">Brand</a><input type="search" style="width: 150px;"><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarResponsive"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon" style="width: 30px;margin-left: 5px;"></span></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#">Sign Up&nbsp;</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Log In&nbsp;</a></li>
-                </ul><span class="navbar-text">BUTTON</span>
-            </div>
+    <link rel="stylesheet" href="assets/css/styles.min.css" />
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-dark navbar-expand-lg fixed-top bg-dark navbar-custom"
+      style="color: var(--bs-body-color); background: var(--bs-dark)"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">Brand</a
+        >
+          <!-- <span class="visually-hidden">Toggle navigation</span -->
+          ><span
+            class="navbar-toggler-icon"
+            style="width: 30px; margin-left: 5px"
+          ></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sign Up&nbsp;</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Log In&nbsp;</a>
+            </li>
+          </ul>
+          <span class="navbar-text">BUTTON</span>
         </div>
-    </nav> 
+      </div>
+    </nav>
 
+    <div class="glass">
+      <div class="style">
+        <h2>
+          <span id="computer-choice"></span>
+        </h2>
+        <h2>
+          <span id="user-choice"></span>
+        </h2>
 
-<div class="glass">
-    <div class="style">
-        <h2>Computer Choice:  <span id="computer-choice"></span></h2>
-        <h2>User Choice:  <span id="user-choice"></span></h2>
+        <button id="rock">rock</button>
+        <button id="paper">paper</button>
+        <button id="scissor">scissor</button>
 
-        <button id="rock"> rock </button>
-        <button id="paper"> paper </button>
-        <button id="scissor"> scissor </button>
-
-        <h2>Result:  <span id="result"></span></h2>
+        <h2>Result: <span id="result"></span></h2>
         <div class="score">
-            <h2>Your score: <span id="user-score">0</span></h2>
-            <h2>Opponent's score: <span id="computer-score">0</span></h2>
+          <h2>Your score: <span id="user-score">0</span></h2>
+          <h2>Opponent's score: <span id="computer-score">0</span></h2>
         </div>
-
+      </div>
+      <div class="githublogo">
+        <a href="https://github.com/Jimmy-Taravia2001"
+          ><img src="Octocat.png" alt="github_logo"
+        /></a>
+      </div>
     </div>
-    <div class="githublogo">
-        <a href="https://github.com/Jimmy-Taravia2001"><img src="Octocat.png" alt="github_logo"></a>
-      </div>    
-
-
-
-</div>
     <script src="app.js" charset="utf-8"></script>
-
-
-
-
-</body>
+  </body>
 </html>
